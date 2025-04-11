@@ -1,7 +1,7 @@
 info:
   version: 1.0.0
-  title: Manthan_product
-  name: manthan_product
+  title: new_product
+  name: new_product
 gateways:
   - datapower-api-gateway
 plans:
@@ -12,10 +12,10 @@ plans:
       default:
         value: 100/1hour
     apis:
-      demo_api1.0.0: {}
+      sample1.0.0: {}
 apis:
-  demo_api1.0.0:
-    $ref: ./demo_api_1.0.0.yaml
+  sample1.0.0:
+    $ref: ./sample_1.0.0.yaml
 visibility:
   view:
     type: public
